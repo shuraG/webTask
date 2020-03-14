@@ -1,0 +1,16 @@
+.container-scroll{ 
+    display: flex; 
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #efeff2;
+    padding-top:32px;
+    padding-bottom:24px;
+    overflow-x: scroll;
+}
+
+@media screen and (max-width: 800px) {
+    .container-scroll{
+        display: none;
+    }
+  }

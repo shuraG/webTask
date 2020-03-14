@@ -1,0 +1,45 @@
+.container-specs{
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:white;
+    margin: 0px 10px 20px 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+.spec-text{
+    display: flex;
+    border-bottom: solid #efeff2 3px;
+    padding: 15px 0 15px 0; 
+    justify-content: space-between;
+}
+
+.clear-border{
+    border-bottom: none;
+}
+.spec-tittle{
+    color: #343434 ; 
+    font-family: "Helvetica Neue";
+    font-weight: 700;
+    font-size: 35px;
+    
+    margin-bottom: 16px;   
+    text-align: left;
+    margin: 10px 0px 0px 0px; 
+}
+
+
+@media screen and (max-width: 800px){
+    .container-specs{
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+    }
+    .spec-text{
+        margin: 0px 20px 0px 20px; 
+        justify-content: space-between;
+    }
+    .spec-tittle{
+        margin: 10px 0px 0px 20px; 
+    }
+}

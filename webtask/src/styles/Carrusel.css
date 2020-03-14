@@ -1,0 +1,11 @@
+.container-carrusel{
+    width: 100%;
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .container-carrusel{
+        display: flex;
+    }
+}
+

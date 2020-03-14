@@ -1,0 +1,13 @@
+.container-footer {
+    display: flex;
+     flex-direction:row;
+     justify-content: space-around;
+    background-color: #EFEFF2;
+}
+
+@media screen and (max-width: 800px) {
+   .container-footer{
+       flex-direction: column;
+       justify-content: center;
+   }
+  }

@@ -1,0 +1,36 @@
+.topbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:  center;
+    background-color: black;
+	height: 56px;
+	overflow: hidden ;
+	/* padding-right: 10px; */
+}
+
+.topbar-icon {
+	margin: 16px 24px 16px;
+	-webkit-transform: skew(17deg);
+}
+
+#paralelograma {
+	width: 56px;
+	height: 56px;
+	-webkit-transform: skew(-17deg);	   
+    background: #F88200;
+}
+
+#paralelograma:before {
+    content: "";
+	position: absolute;
+	top: 0px;
+	left: 47px;
+	width: 0;
+	height: 0;
+	border-left: 18px solid transparent;	
+    border-bottom: 56px solid #F88200;
+    -webkit-transform: skew(17deg);  
+}
+
+
